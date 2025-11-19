@@ -90,7 +90,7 @@ def update_contact(s: list):
 
 def sms_manager(s: list):
     while True:
-        print("---- SMS Manager ----")
+        print("==== SMS Manager ====")
         print("1. View contacts")
         print("2. Send message")
         print("3. Back to main menu")
