@@ -117,7 +117,7 @@ def sms_manager(s: list):
             contact = contacts[idx]
             msg = input(f"Enter message for {contact.name}: ")
             
-            print(f"\n📩 Sending message to {contact.name} ({contact.phone})...")
+            print(f"\nSending message to {contact.name} ({contact.phone})...")
             print(f"Message: {msg}")
             print("Message sent!\n")
 
